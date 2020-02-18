@@ -1,0 +1,5 @@
+.*.sw*
+.DS_Store
+
+Nx256_s200000.0_N500study_pretrained*
+.ipynb_checkpoints/
