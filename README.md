@@ -1,9 +1,9 @@
-# MSC 326 (University of Miami) triplet-trainer course
+# MPO624 (University of Miami) triplet-trainer course
 
 This repository contains material to work with the neural network model used in
 [L Denby
 (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085190) and
-was created for class MSC 326 at University of Miami Feb 2020.
+was created for class MPO624 at University of Miami Feb 2020.
 
 Exercises are stored as jupyter notebooks in [notebooks/](notebooks/)
 
@@ -12,8 +12,8 @@ Exercises are stored as jupyter notebooks in [notebooks/](notebooks/)
 Clone this repository so that you have a local copy of the exercises
 
 ```bash
-git clone https://github.com/leifdenby/MSC326_convml_tt
-cd MSC326_convml_tt
+git clone https://github.com/leifdenby/MPO624_convml_tt
+cd MPO624_convml_tt
 ```
 
 Download and unpack the [tar-ball with
