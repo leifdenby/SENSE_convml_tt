@@ -70,4 +70,10 @@ Tuesday 18th Feb 2020:
    formed distinct clusters in the embedding space.
    notebook: [1b_Exploring_embedding_space_with_clustering_methods.ipynb](notebooks/1b_Exploring_embedding_space_with_clustering_methods.ipynb)
 
-*more to come*
+Thursday 20th Feb 2020:
+
+3) **Using your own input data**: either by generating synthetic input tiles or
+   using your own data source you will work with the pre-trained model to study
+   whether the trained neural network groups them together in the embedding
+   space. notebook:
+   [2_Working_with_your_own_data.ipynb](notebooks/2_Working_with_your_own_data.ipynb)
