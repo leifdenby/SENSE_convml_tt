@@ -1,9 +1,10 @@
-# MPO624 (University of Miami) triplet-trainer course
+# SENSE CDT (University of Leeds) triplet-trainer course
 
 This repository contains material to work with the neural network model used in
 [L Denby
-(2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085190) and
-was created for class MPO624 at University of Miami Feb 2020.
+(2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085190)
+and was created for SENSE CDT training at University of Leeds on 24th
+February 2021.
 
 Exercises are stored as jupyter notebooks in [notebooks/](notebooks/)
 
@@ -12,8 +13,8 @@ Exercises are stored as jupyter notebooks in [notebooks/](notebooks/)
 Clone this repository so that you have a local copy of the exercises
 
 ```bash
-git clone https://github.com/leifdenby/MPO624_convml_tt
-cd MPO624_convml_tt
+git clone https://github.com/leifdenby/SENSE_convml_tt
+cd SENSE_convml_tt
 ```
 
 Download and unpack the [tar-ball with
@@ -58,7 +59,7 @@ jupyter notebook
 
 ## Exercises
 
-Tuesday 18th Feb 2020:
+1330 - 1500:
 
 1) **Dimensionality reduction**: Examine how the neural
    network has used the embedding space; are all 100 dimensions necessary? Can
@@ -70,7 +71,7 @@ Tuesday 18th Feb 2020:
    formed distinct clusters in the embedding space.
    notebook: [1b_Exploring_embedding_space_with_clustering_methods.ipynb](notebooks/1b_Exploring_embedding_space_with_clustering_methods.ipynb)
 
-Thursday 20th Feb 2020:
+1530 - 1630:
 
 3) **Using your own input data**: either by generating synthetic input tiles or
    using your own data source you will work with the pre-trained model to study
