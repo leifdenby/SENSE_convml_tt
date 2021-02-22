@@ -45,9 +45,9 @@ The tar-ball contains:
 - Embedding vectors for the 1000 *anchor* tiles in the *study* set, stored in
   `fixednorm-stage-2.emb.nc` produced with the trained model mentioned above.
 
-[install `convml_tt`](https://github.com/leifdenby/convml_tt#getting-started)
-and its dependencies into a conda environment and activate the `convml_tt`
-conda environment:
+Install `convml_tt` itself and its dependencies into a conda environment 
+([instructions here](https://github.com/leifdenby/convml_tt#getting-started)).
+Once installed, activate the `convml_tt` conda environment:
 
 ```bash
 conda activate convml_tt
