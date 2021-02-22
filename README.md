@@ -23,6 +23,8 @@ we'll be using for the exercises:
 
 ```bash
 wget http://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_pretrained.tgz
+# if you don't have wget you can instead do:
+# curl http://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_pretrained.tgz --output Nx256_s200000.0_N500study_pretrained.tgz
 tar zxvf Nx256_s200000.0_N500study_pretrained.tgz
 ```
 
