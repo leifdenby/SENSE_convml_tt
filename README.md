@@ -10,7 +10,18 @@ Exercises are stored as jupyter notebooks in [notebooks/](notebooks/)
 
 ## Getting started
 
-Clone this repository so that you have a local copy of the exercises
+To work through the exercises you will need two things:
+
+1) A copy of the exercises (the repository you're looking at right now!)
+and the associated dataset
+
+2) A copy of the `convml_tt` python module installed into a conda
+environment
+
+### 1. Downloading the exercises and dataset
+
+Choose a suitable parent directory (for example your desktop, `~/Desktop`)
+and clone this repository so that you have a local copy of the exercises
 
 ```bash
 git clone https://github.com/leifdenby/SENSE_convml_tt
@@ -45,21 +56,31 @@ The tar-ball contains:
 - Embedding vectors for the 1000 *anchor* tiles in the *study* set, stored in
   `fixednorm-stage-2.emb.nc` produced with the trained model mentioned above.
 
-Install `convml_tt` itself and its dependencies into a conda environment 
-([instructions here](https://github.com/leifdenby/convml_tt#getting-started)).
-Once installed, activate the `convml_tt` conda environment:
+### 2. Install `convml_tt` and its dependencies with `conda`
+
+Instructions on how to create a conda environment and install `convml_tt`
+into it are
+[here](https://github.com/leifdenby/convml_tt#getting-started)).
+
+## Exercises
+
+Once `convml_tt` is installed you can activate the `convml_tt` conda
+environment:
 
 ```bash
 conda activate convml_tt
 ```
 
-Open up a jupyter session and get going with the exercises:
+Move to the path where you checked out the exercises (e.g.
+`~/Desktop/SENSE_convml_tt`)
+
+And start up a jupyter session and get going with the exercises:
 
 ```bash
 jupyter notebook
 ```
 
-## Exercises
+The exercises are broken down as follows:
 
 1330 - 1500:
 
