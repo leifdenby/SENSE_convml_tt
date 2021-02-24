@@ -18,6 +18,9 @@ and the associated dataset
 2) A copy of the `convml_tt` python module installed into a conda
 environment
 
+If you are on Windows and are having trouble some more detailed notes are
+given [here](README.windows.md).
+
 ### 1. Downloading the exercises and dataset
 
 Choose a suitable parent directory (for example your desktop, `~/Desktop`)
