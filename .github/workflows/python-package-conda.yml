@@ -43,9 +43,9 @@ jobs:
         shell: bash -l {0}
         run: |
           which python
-      #- name: Download test data
-        #run: |
-          #bash binder/postBuild
+      - name: Download test data
+        run: |
+          bash binder/postBuild
       - name: git info
         run: |
           git log --name-only -1 | cat -

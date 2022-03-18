@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python>=3.7
+  - notebook
+  - matplotlib
+  - xarray
