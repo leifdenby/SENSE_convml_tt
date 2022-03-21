@@ -15,7 +15,7 @@ To work through the exercises you will need two things:
 
 1) A copy of the exercises (the repository you're looking at right now!)
 
-2) A copy of the `convml_tt` python module installed into a conda
+2) A copy of the `convml-tt` python module installed into a conda
 environment
 
 If you are on Windows and are having trouble some more detailed notes are
