@@ -1,3 +1,0 @@
-wget http://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_pretrained.tgz
-unzip Nx256_s200000.0_N500study_pretrained.tgz
-rm Nx256_s200000.0_N500study_pretrained.tgz

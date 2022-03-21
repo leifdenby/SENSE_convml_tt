@@ -3,7 +3,10 @@ channels:
   - defaults
   - pytorch
 dependencies:
-  - python>=3.7
   - notebook
   - matplotlib
   - xarray
+  - torchvision>=0.4.0
+  - cpuonly
+  pip:
+    - convml-tt
