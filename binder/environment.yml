@@ -8,5 +8,5 @@ dependencies:
   - xarray
   - torchvision>=0.4.0
   - cpuonly
-  pip:
+  - pip:
     - convml-tt>=0.12.0
