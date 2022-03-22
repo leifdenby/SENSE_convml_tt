@@ -4,6 +4,10 @@ on: [push]
 jobs:
   test:
     name: Test python ${{ matrix.python-version }} on ${{ matrix.os }}
+    defaults:
+      # for micromamba
+      run:
+        shell: bash -l {0}
 
     runs-on: ${{ matrix.os }}
     strategy:
