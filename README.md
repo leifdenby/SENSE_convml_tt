@@ -1,5 +1,7 @@
 # SENSE CDT (University of Leeds) triplet-trainer course
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leifdenby/SENSE_convml_tt/HEAD)
+
 This repository contains material to work with the neural network model used in
 [L Denby
 (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085190)

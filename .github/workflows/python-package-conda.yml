@@ -1,4 +1,4 @@
-name: Python Package using Conda
+name:   SENSE_convml-tt
 on: [push]
 
 jobs:
