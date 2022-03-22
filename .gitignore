@@ -1,5 +1,9 @@
 .*.sw*
 .DS_Store
+*.nc
+lightning_logs/
 
 Nx256_s200000.0_N500study_pretrained*
 .ipynb_checkpoints/
+notebooks/data/
+notebooks/random_waves/

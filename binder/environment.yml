@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python>=3.8
+  - pip
+  - notebook
+  - matplotlib
+  - xarray
+  - torchvision>=0.4.0
+  - cpuonly
+  - pip:
+    - convml-tt>=0.12.0
