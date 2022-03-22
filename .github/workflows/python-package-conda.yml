@@ -46,6 +46,7 @@ jobs:
         shell: bash -l {0}
         run: |
           cd notebooks |
+          mamba install wget -c conda-forge |
           wget http://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_N2000train.tgz
       - name: Test with pytest
         shell: bash -l {0}
