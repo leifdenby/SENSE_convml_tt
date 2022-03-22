@@ -1,6 +1,6 @@
 # SENSE CDT (University of Leeds) triplet-trainer course
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leifdenby/SENSE_convml_tt/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leifdenby/SENSE_convml_tt/HEAD) [![SENSE_convml-tt](https://github.com/leifdenby/SENSE_convml_tt/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/leifdenby/SENSE_convml_tt/actions/workflows/python-package-conda.yml)
 
 This repository contains material to work with the neural network model used in
 [L Denby
