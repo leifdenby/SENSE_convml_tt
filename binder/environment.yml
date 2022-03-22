@@ -3,6 +3,8 @@ channels:
   - defaults
   - pytorch
 dependencies:
+  - python>=3.8
+  - pip
   - notebook
   - matplotlib
   - xarray
