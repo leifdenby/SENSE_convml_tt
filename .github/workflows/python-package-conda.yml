@@ -47,7 +47,7 @@ jobs:
         shell: bash -l {0}
         run: |
           cd notebooks
-          curl http://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_N2000train.tgz --output Nx256_s200000.0_N500study_N2000train.tgz
+          curl https://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_N2000train.tgz --output Nx256_s200000.0_N500study_N2000train.tgz -k
           tar zxvf Nx256_s200000.0_N500study_N2000train.tgz
       - name: Test with pytest
         shell: bash -l {0}
