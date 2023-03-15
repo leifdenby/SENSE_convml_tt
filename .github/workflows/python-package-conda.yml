@@ -47,8 +47,12 @@ jobs:
         shell: bash -l {0}
         run: |
           cd notebooks
-          curl http://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_N2000train.tgz --output Nx256_s200000.0_N500study_N2000train.tgz
+          mkdir data
+          cd data
+          curl https://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/Nx256_s200000.0_N500study_N2000train.tgz --output Nx256_s200000.0_N500study_N2000train.tgz -k
           tar zxvf Nx256_s200000.0_N500study_N2000train.tgz
+          curl https://homepages.see.leeds.ac.uk/~earlcd/ml-datasets/fixednorm-stage-2.tgz --output fixednorm-stage-2.tgz -k
+          tar zxvf fixednorm-stage-2.tgz
       - name: Test with pytest
         shell: bash -l {0}
         run: |

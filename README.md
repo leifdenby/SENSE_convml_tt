@@ -5,9 +5,10 @@
 This repository contains material to work with the neural network model used in
 [L Denby
 (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085190)
-and was created for SENSE CDT training at University of Leeds on 23rd
-March 2022 (if you're looking for the 2021 training material [look
-here](https://github.com/leifdenby/SENSE_convml_tt/tree/3167552a729d79af37f1c119fbe1753ee5445589)).
+and was created for SENSE CDT training at University of Leeds on 15th
+March 2023 (material from previous years:
+[2021](https://github.com/leifdenby/SENSE_convml_tt/tree/2021) and
+[2022](https://github.com/leifdenby/SENSE_convml_tt/tree/2022))
 
 Exercises are stored as jupyter notebooks in [notebooks/](notebooks/)
 
